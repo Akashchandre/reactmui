@@ -1,4 +1,5 @@
-React Product Listing with Filters, Sorting, and Pagination This is a React.js project that displays a list of products using the MUI DataGrid. It fetches data from an external API and provides features like search, category filter, price sorting, pagination, and product detail page with lazy loading.
+React Product Listing with Filters, Sorting, and Pagination .
+This is a React.js project that displays a list of products using the MUI DataGrid. It fetches data from an external API and provides features like search, category filter, price sorting, pagination, and product detail page with lazy loading.
 
 ** Features
 
