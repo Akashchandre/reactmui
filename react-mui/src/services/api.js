@@ -1,6 +1,8 @@
 import axios from "axios";
 
-const BASE_URL = "https://catalog-management-system-dev-ak3ogf6zea-uc.a.run.app/cms/products";
+const BASE_URL = "https://api.allorigins.win/raw?url=" +
+  encodeURIComponent("https://catalog-management-system-dev-ak3ogf6zea-uc.a.run.app/cms/products");
+
 
 export const fetchProducts = async (page = 1) => {
   const res = await axios.get(`${BASE_URL}?page=${page}`);
